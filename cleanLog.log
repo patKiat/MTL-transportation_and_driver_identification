@@ -1,0 +1,31 @@
+INFO:root:CLEANING FILES...
+INFO:root:Delete: sensorfile_U12_Bus_1467877458278.csv --- Time with incorrect values
+INFO:root:Delete: sensorfile_U12_Train_1467874365472.csv --- Time with incorrect values
+INFO:root:Delete: sensorfile_U12_Walking_1467873082166.csv --- Time with incorrect values
+INFO:root:Delete: sensorfile_U12_Walking_1467908906985.csv --- Time with incorrect values
+INFO:root:Delete: sensorfile_U12_Walking_1467913316731.csv --- Time with incorrect values
+INFO:root:  Delete: sensorfile_U12_Bus_1467965458071.csv --- is Empty
+INFO:root:  Delete: sensorfile_U12_Bus_1468483170759.csv --- is Empty
+INFO:root:  Delete: sensorfile_U12_Still_1467966144317.csv --- is Empty
+INFO:root:  Delete: sensorfile_U12_Still_1469267354671.csv --- is Empty
+INFO:root:  Delete: sensorfile_U12_Still_1469269143071.csv --- is Empty
+INFO:root:  Delete: sensorfile_U12_Train_1468481920259.csv --- is Empty
+INFO:root:  Delete: sensorfile_U12_Train_1469692323725.csv --- is Empty
+INFO:root:  Delete: sensorfile_U12_Walking_1468307037179.csv --- is Empty
+INFO:root:  Delete: sensorfile_U12_Walking_1469552905984.csv --- is Empty
+INFO:root:  Tot files in Dataset : 262
+INFO:root:  Tot deleted files : 15
+INFO:root:  Remaining files : 247
+INFO:root:END CLEAN FILES
+INFO:root:TRANSFORMING RAW DATA...
+INFO:root:END TRANSFORMING RAW DATA...
+WARNING:tensorflow:From c:\Users\patta\anaconda3\envs\patenv\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From c:\Users\patta\anaconda3\envs\patenv\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+WARNING:absl:`lr` is deprecated in Keras optimizer, please use `learning_rate` or use the legacy optimizer, e.g.,tf.keras.optimizers.legacy.Adam.
+WARNING:tensorflow:From c:\Users\patta\anaconda3\envs\patenv\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+WARNING:tensorflow:From c:\Users\patta\anaconda3\envs\patenv\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+WARNING:absl:`lr` is deprecated in Keras optimizer, please use `learning_rate` or use the legacy optimizer, e.g.,tf.keras.optimizers.legacy.Adam.
